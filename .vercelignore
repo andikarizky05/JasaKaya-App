@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+vendor
+
+# Development files
+.env
+.env.local
+.env.example
+.git
+.gitignore
+.editorconfig
+
+# Build artifacts
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+storage/app/public
+
+# Testing
+tests
+phpunit.xml
+.phpunit.result.cache
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel specific
+bootstrap/cache/*.php
+.env.backup
+.phpunit.result.cache
+artisan
+
+# Documentation
+README.md
+
+# Package managers
+package-lock.json
+composer.lock
