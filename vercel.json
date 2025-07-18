@@ -6,11 +6,7 @@
       "use": "@vercel/static-build"
     },
     {
-      "src": "api/**/*.php",
-      "use": "vercel-php@0.6.0"
-    },
-    {
-      "src": "index.php",
+      "src": "api/index.php",
       "use": "vercel-php@0.6.0"
     }
   ],
@@ -24,12 +20,8 @@
       "dest": "/$1"
     },
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.php"
+      "dest": "/api/index.php"
     }
   ],
   "env": {
