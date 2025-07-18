@@ -3,7 +3,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build && cp -r public dist",
+        "build": "vite build",
         "dev": "vite",
         "watch": "vite build --watch"
     },
