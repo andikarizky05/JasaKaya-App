@@ -6,7 +6,7 @@
       "destination": "/public/build/$1"
     },
     {
-      "source": "/(.*\\.(css|js|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|mp4))$",
+      "source": "/(.*\\\\.(css|js|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|mp4))$",
       "destination": "/public/$1"
     },
     {
